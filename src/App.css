@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap');
+
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu-icon {
+  width: 30px;
+}
+
+.main-content{
+  margin-top: 100px;
+}
+
+.main-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  max-width: 600px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding: 12px 22px;
+  margin: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+}
+
+.download-button {
+  background-color: white;
+  color: rgb(1, 1, 83);
+}
+
+.open-button {
+  background-color: rgb(1, 1, 83);
+  color: white;
+
+}
+.background{
+  width: 80vh;
+  margin-left: 70vh;
+}
